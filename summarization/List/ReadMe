@@ -1,1 +1,5 @@
-
+List的题目有2种：
+1. 改变List的结构：比如reverse, sort, merge, rotate, remove, swap, add
+2. 不改变List的结构：比如find circle
+3. 与其他数据结构结合的题目：比如Convert Sorted List to BST
+其中，第一个是主要考点，也是难点。
