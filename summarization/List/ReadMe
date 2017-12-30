@@ -1,5 +1,5 @@
 LinkedList的题目大概包括三种：
-1. 需要修改list的结构: 比如reverse, merge, remove
+1. 需要修改list的结构: 比如reverse, merge, sort, remove, etc.
 2. 不需要修改list的结构: 比如找到LinkedList的形成环的起点.
 3. 和其他数据结构的组合题: 比如BST变成double linked list.
 
