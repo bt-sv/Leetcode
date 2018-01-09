@@ -38,5 +38,27 @@ public class SwapNodesInPairs {
         return dummy.next;
     }
     
-    // Second. Same as reverse nodes in K groups.
+    // More concise.
+	public ListNode swapPairs2(ListNode head) {
+    	if(head == null || head.next == null) {
+			return head;
+		}
+		
+		ListNode dummy = new ListNode(0);                                
+		dummy.next = head;
+		ListNode prev = dummy;
+		ListNode temp = head;
+		
+		while(temp != null && temp.next != null) {
+			ListNode after = temp.next.next;
+			prev.next = temp.next;
+			temp.next = after;
+			prev = prev.next;
+			prev.next = temp;
+			prev = temp;
+			temp = after;
+		}
+        
+		return dummy.next;
+	}
 }
