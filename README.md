@@ -1,2 +1,2 @@
 # Leetcode
-Let's coding.
+Let's coding!
