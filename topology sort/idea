@@ -1,0 +1,5 @@
+拓扑排序一般有2种做法：
+1. 反向dfs
+2. 按照出入度的角度做
+
+用LeetCode的course schedule II 来做例子说明
