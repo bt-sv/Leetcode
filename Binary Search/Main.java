@@ -23,7 +23,7 @@ public int binarySearch(int[] nums, int target) {
 // 两种解法
 /*
     1. 找到最右边的index，但是需要额外判断
-    由于在line:36 a = mid + 1，所以有可能跳出循环之后a == b但是nums[b] > target(这种情况会在只有数组只有一个target情况下发生)，所以需要额外判断(line:40-43)
+    由于在line:36 a = mid + 1，所以有可能跳出循环之后a == b但是nums[b(a)] > target(这种情况会在只有数组只有一个target情况下发生)，所以需要额外判断(line:40-43)
 */
 public int binarySearch(int[] nums, int target) {
     int n = nums.length;
